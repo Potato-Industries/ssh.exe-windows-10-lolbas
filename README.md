@@ -78,6 +78,16 @@ tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
 
 **Reverse Port forwarding (Target -> IP:PORT)**
 
+https://www.openssh.com/txt/release-7.6
+ * ssh(1): add support for reverse dynamic forwarding. In this mode,
+   ssh will act as a SOCKS4/5 proxy and forward connections
+   to destinations requested by the remote SOCKS client. This mode
+   is requested using extended syntax for the -R and RemoteForward
+   options and, because it is implemented solely at the client,
+   does not require the server be updated to be supported.
+
+Windows 10 has OpenSSH 7.7p1.
+
 Target:
 
 ```
