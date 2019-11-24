@@ -26,7 +26,7 @@ Restrictions
 - Listen on 127.0.0.1:port only. 
 
 ```
-oswe@oswe:~# nano /etc/ssh/sshd_config
+oswe@oswe:~# sudo nano /etc/ssh/sshd_config
 
 Match User limited-user
    AllowTcpForwarding Remote
@@ -45,8 +45,8 @@ https://man.openbsd.org/sshd_config
 We create the restricted ssh user 'limited-user', set a password, reload sshd config.
 ```
 oswe@oswe:~# sudo useradd -m limited-user
-oswe@oswe:~# passwd limited-user
-oswe@oswe:~# service sshd reload
+oswe@oswe:~# sudo passwd limited-user
+oswe@oswe:~# sudo service sshd reload
 ```
 
 Now if we ssh from a Windows 10 box as this user we would now have remote port forwarding capability into the target network. So convienient, we don't need to provide any external binaries for a pretty robust encrypted channel.  
