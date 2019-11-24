@@ -8,7 +8,7 @@ https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_o
 
 This is obviously awesome from a red team perspective.
 
-Following in the spirit of LOLBAS (https://lolbas-project.github.io/#) I present a few options leveraging ssh.exe for lateral movement / post exploitation. It's all well document tunnelling techniques using ssh, but it's now available in Windows 10 / Server 2019 out of the box. 
+Following in the spirit of LOLBAS (https://lolbas-project.github.io/#) I present a few options leveraging ssh.exe for lateral movement / post exploitation. It's all well documented tunnelling techniques using ssh, but it's now available in Windows 10 / Server 2019 out of the box. 
 
 We will be using a outbound ssh.exe client connection and ssh remote port forwarding to gain access to networks as our compromised host (Target). 
 
