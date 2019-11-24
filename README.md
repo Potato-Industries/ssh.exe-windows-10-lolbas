@@ -59,7 +59,7 @@ Now if we ssh from a Windows 10 box as this user we would now have remote port f
 
 Target:
 ```
-C:\Windows\System32\OpenSSH>ssh limited-user@192.168.116.201 -N -D 9999
+C:\Windows\System32\OpenSSH>ssh limited-user@192.168.116.201 -N -R 9999
 limited-user@192.168.116.201's password:
 
 ```
