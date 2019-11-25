@@ -6,6 +6,8 @@ Windows 10 (plus Server 2019) has a OpenSSH client available by default in "C:\W
 
 https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_overview
 
+https://www.bleepingcomputer.com/news/microsoft/heres-how-to-enable-the-built-in-windows-10-openssh-client/
+
 This is obviously awesome from a red team perspective.
 
 Following in the spirit of LOLBAS (https://lolbas-project.github.io/#) I present a few options leveraging ssh.exe for lateral movement / post exploitation. It's all well documented tunnelling techniques using ssh, but it's now available in Windows 10 / Server 2019 out of the box. 
