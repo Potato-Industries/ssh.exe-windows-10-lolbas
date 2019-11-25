@@ -161,7 +161,10 @@ limited-user@192.168.116.201's password:
 Connection to 192.168.116.201 closed.
 
 ```
- 
+
+**PS**
+
+Microsoft signed versions of ssh.exe can be found @ https://github.com/PowerShell/Win32-OpenSSH/releases.
 
 
 Enjoy~
